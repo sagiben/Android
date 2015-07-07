@@ -18,6 +18,14 @@
     -l SUBSCRIBERS, --list=SUBSCRIBERS
                             A file holding the subscribers list in JSON format
     ```
-
-
+  - **Subscribers list exmaple** :
+  ```
+  {
+    "user@domain.com" : [ "all" ],
+    "user2@domain.com : [ 
+        "bootable/recovery",
+        "docs/source.android.com"
+    ]
+  }
+  ```
 
